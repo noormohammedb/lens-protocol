@@ -34,4 +34,5 @@ export const NETWORKS_RPC_URL: iParamsPerNetwork<string> = {
   ? `https://polygon-mainnet.g.alchemy.com/v2/${ALCHEMY_KEY}`
   : `https://polygon-mainnet.infura.io/v3/${INFURA_KEY}`,
   [eXDaiNetwork.xdai]: 'https://rpc.xdaichain.com/',
+  [eEthereumNetwork.ganache]: 'http://localhost:7545/',
 };

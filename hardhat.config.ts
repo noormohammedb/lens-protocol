@@ -72,6 +72,7 @@ const config: HardhatUserConfig = {
     matic: getCommonNetworkConfig(ePolygonNetwork.matic, 137),
     mumbai: getCommonNetworkConfig(ePolygonNetwork.mumbai, 80001),
     xdai: getCommonNetworkConfig(eXDaiNetwork.xdai, 100),
+    ganache: getCommonNetworkConfig(eEthereumNetwork.ganache, 5777),
     hardhat: {
       hardfork: 'london',
       blockGasLimit: DEFAULT_BLOCK_GAS_LIMIT,

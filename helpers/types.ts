@@ -11,6 +11,7 @@ export enum eEthereumNetwork {
   hardhat = 'hardhat',
   tenderlyMain = 'tenderlyMain',
   harhatevm = 'harhatevm',
+  ganache = 'ganache',
 }
 
 export enum ePolygonNetwork {
@@ -52,6 +53,7 @@ export interface iEthereumParamsPerNetwork<eNetwork> {
   [eEthereumNetwork.main]: eNetwork;
   [eEthereumNetwork.hardhat]: eNetwork;
   [eEthereumNetwork.tenderlyMain]: eNetwork;
+  [eEthereumNetwork.ganache]: eNetwork;
 }
 
 export interface iPolygonParamsPerNetwork<T> {
